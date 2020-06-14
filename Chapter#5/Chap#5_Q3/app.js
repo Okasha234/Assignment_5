@@ -1,0 +1,12 @@
+var i;
+document.write("Value after variable declaration is:"+" "+i+"<br>");
+i = +prompt("Enter the value","e.g: 5");
+document.write("Initial value is:"+" "+i+"<br>");
+i = i+1;
+document.write("Value after increment is:"+" "+(i)+"<br>");
+i = i+7;
+document.write("Value after addition is:"+" "+(i)+"<br>");
+i = i-1;
+document.write("Value after decrement is:"+" "+(i)+"<br>");
+i = i%3;
+document.write("The remainder is:"+" "+(i)+"<br>");
